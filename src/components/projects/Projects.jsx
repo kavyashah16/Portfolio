@@ -17,20 +17,17 @@ const Projects = () => {
       <div className="grid grid-cols-3 gap-6">
       <ProjectCard
           title="iNoteBook"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" iNotebook is a secure note-taking web application built with React, Node.js, Express, and MongoDB. It allows users to create, edit, and manage notes with authentication using JWT. With a clean and responsive UI, users can access their notes from any device while ensuring data privacy."
           src={projectOne}
         />
         <ProjectCard
           title="StudySmart"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" StudyMate is a collaborative study app that enables students to share notes, engage in live chat, participate in video conferencing, and conduct group study sessions. Built with React Native, TypeScript, and Firebase, it also includes a to-do list for task management, making it an all-in-one platform for efficient and interactive learning."
           src={projectTwo}
         />
         <ProjectCard
           title="Portfolio"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" My Portfolio is a personal website built using React and Tailwind CSS, showcasing skills, projects, and experience in a visually appealing and responsive design. It includes sections like About Me, Projects, Skills, and Contact, along with smooth animations and easy navigation for visitors."
           src={projectThree}
         />
         {/* <ProjectCard

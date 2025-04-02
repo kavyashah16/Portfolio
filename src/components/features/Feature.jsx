@@ -15,17 +15,17 @@ const Feature = () => {
         <Card 
         title="Front-End Developer"
         icon={<PiAppWindowLight />}
-        des='Understanding these data structures and their operations is crucial for effective programming, as they form the foundation for'
+        des='A Front-End Developer focuses on designing and building the user interface (UI) of websites and applications using technologies like HTML, CSS, and JavaScript. They ensure a seamless and interactive user experience with frameworks like React, Vite, Next.js etc.'
         />
         <Card 
         title="App Developer"
         icon={<FaMobileAlt />}
-        des='Understanding these data structures and their operations is crucial for effective programming, as they form the foundation for'
+        des='An App Developer specializes in creating mobile or desktop applications. They work with platforms like Android (Java/Kotlin), iOS (Swift), or cross-platform frameworks like React Native to develop responsive and feature-rich apps.'
         />
         <Card 
         title="Back-End Developer"
         icon={<SiMongodb />}
-        des='Understanding these data structures and their operations is crucial for effective programming, as they form the foundation for handling and manipulating data efficiently in Python.'
+        des='A Back-End Developer manages the server-side logic, databases, and APIs that power applications. Using technologies like Node.js this ensure efficient data processing, security, and communication between the front-end and database.'
         />
         {/* <Card 
         title="SEO Optimization"

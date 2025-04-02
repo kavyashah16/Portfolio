@@ -14,15 +14,27 @@ const Resume = () => {
       className="w-full pt-10 pb-20 flex flex-col border-b-[1px] border-b-black"
     >
       <div className="w-full flex flex-col items-center text-center">
-        <Title title="One Year of experience" des="My Resume" />
+        <Title
+          title="One Year of experience"
+          des={
+            <a
+              href="https://drive.google.com/file/d/1zQYqSJFQxxzA_AXT3p28rcp3NLnAOEmu/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My Resume
+            </a>
+          }
+        />
       </div>
+
       <div>
-        <ul className="w-full grid grid-cols-3 text-center">
+        <ul className="w-full grid grid-cols-2 text-center">
           {[
             { id: "education", label: "Education" },
             { id: "skills", label: "Skills" },
             // { id: "experience", label: "Experience" },
-            { id: "achievement", label: "Achievement" },
+            // { id: "achievement", label: "Achievement" },
           ].map((item) => (
             <li
               key={item.id}

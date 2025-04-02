@@ -34,7 +34,7 @@ const Education = () => {
             />
           </div>
         </div>
-        <div>
+        {/* <div>
           <div className="py-12 font-titleFont ">
             <p className="text-sm text-designColor tracking-[4px]">
               2023-Present
@@ -61,7 +61,7 @@ const Education = () => {
               des="Pursing my BTech degree from Dwarkadas J Sanghvi College of Engineering, currently in second year."
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   )
